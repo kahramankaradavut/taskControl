@@ -1,0 +1,55 @@
+name: on_duty
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  fluentui_system_icons: ^1.1.185
+  iconsax: ^0.0.8
+  fluttertoast: ^8.1.1
+  autocomplete_textfield: ^2.0.1
+  page_transition: ^2.0.9
+  intl: ^0.17.0
+  firebase_core: ^2.4.0
+  firebase_auth: ^4.2.0
+  cloud_firestore: ^4.2.0
+  flutter_secure_storage: ^7.0.1
+  flutter_launcher_icons: ^0.11.0
+  firebase_messaging: ^14.2.1
+  internet_connection_checker: ^1.0.0+1
+  flutter_native_splash: ^2.2.16
+  http: ^0.13.5
+  provider: ^6.0.5
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  image: assets/images/splash.png
+  color: "#ffffff"
+
+flutter_icons:
+  adaptive_icon_background: "#ffffff"
+  android : true
+  ios : true
+  image_path: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: SourceSansPro
+      fonts:
+        - asset: assets/fonts/SourceSansPro-Regular.ttf
+        - asset: assets/fonts/SourceSansPro-SemiBold.ttf
